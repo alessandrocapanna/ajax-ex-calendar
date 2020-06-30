@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.festivo {
+  color:red;
+}
+
+li {
+  list-style-type: none;
+}
+.container {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+}
+ul.days-list {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+ul.days-list li {
+  padding: 10px;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+ul.days-list li.festivo {
+  border: 1px solid red;
+}
